@@ -1,0 +1,6 @@
+---
+- include: condor.yml
+  when: monitor_condor
+
+- include: sge.yml
+  when: monitor_sge
