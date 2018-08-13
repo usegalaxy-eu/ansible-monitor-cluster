@@ -1,7 +1,8 @@
-- name: "Send slurm cluster utilisation monitor"
+---
+- name: "Send slurm queue monitor"
   copy:
-    src: "cluster_util-slurm.sh"
-    dest: "/usr/bin/monitor-slurm-utilisation"
+    src: "cluster_queue-slurm.sh"
+    dest: "/usr/bin/monitor-slurm-queue"
     owner: root
     group: root
     mode: 0755
