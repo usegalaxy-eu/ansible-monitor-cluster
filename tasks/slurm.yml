@@ -1,0 +1,7 @@
+- name: "Send slurm cluster utilisation monitor"
+  copy:
+    src: "cluster_util-slurm.sh"
+    dest: "/usr/bin/monitor-slurm-utilisation"
+    owner: root
+    group: root
+    mode: 0755

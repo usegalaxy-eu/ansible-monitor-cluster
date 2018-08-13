@@ -11,10 +11,11 @@ All relevant cluster engines that you wish to monitor should be installed
 ## Role Variables
 
 variable                    | type    | description
----                         | ---     | ---
-`monitor_condor` | boolean | Install monitoring scripts for HTCondor
+--------------------------- | ---     | ----------
+`monitor_condor`            | boolean | Install monitoring scripts for HTCondor
 `monitor_condor_split_util` | boolean | Should we send the split monitor
-`monitor_sge` | boolean | Install monitoring scripts for SGE
+`monitor_sge`               | boolean | Install monitoring scripts for SGE
+`monitor_slurm`             | boolean | Install monitoring scripts for SLURM
 
 Dependencies
 ------------

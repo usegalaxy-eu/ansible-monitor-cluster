@@ -4,3 +4,6 @@
 
 - include: sge.yml
   when: monitor_sge
+
+- include: slurm.yml
+  when: monitor_slurm
