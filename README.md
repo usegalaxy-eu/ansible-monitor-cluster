@@ -19,7 +19,7 @@ variable                    | type    | description
 Dependencies
 ------------
 
-dj-wasabi.telegraf (modified)
+dj-wasabi.telegraf
 
 Example Playbook
 ----------------
